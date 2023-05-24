@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fff2e3"
+    tools:context=".theorTrianact">
+
+    <ImageView
+        android:id="@+id/imageView150"
+        android:layout_width="238dp"
+        android:layout_height="36dp"
+        android:layout_marginTop="87dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/triagtheoreme" />
+
+    <ScrollView
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="197dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/textView92"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Виды треугольников"
+                android:textColor="#000000"
+                android:textSize="20sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="20dp" />
+
+            <TextView
+                android:id="@+id/textView110"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Разносторонний - все стороны разной длины"
+                android:textColor="#000000"
+                android:textSize="15sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="5dp" />
+
+            <TextView
+                android:id="@+id/textView111"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Равнобедренный - две стороны равны"
+                android:textColor="#000000"
+                android:textSize="15sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="5dp" />
+
+            <TextView
+                android:id="@+id/textView113"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Равносторонний - все стороны равны"
+                android:textColor="#000000"
+                android:textSize="15sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="5dp" />
+
+            <TextView
+                android:id="@+id/textView115"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Прямоугольный - один из углов – прямой"
+                android:textColor="#000000"
+                android:textSize="15sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="5dp" />
+
+            <TextView
+                android:id="@+id/textView118"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Остроугольный - один из углов – острый"
+                android:textColor="#000000"
+                android:textSize="15sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="5dp" />
+
+            <TextView
+                android:id="@+id/textView120"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Тупоугольный - один из углов – тупой"
+                android:textColor="#000000"
+                android:textSize="15sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="20dp" />
+
+            <TextView
+                android:id="@+id/textView122"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Свойство равнобедренного треугольника - В равнобедренном треугольнике углы при основании равны."
+                android:textColor="#000000"
+                android:textSize="15sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="20dp" />
+
+            <TextView
+                android:id="@+id/textView126"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Подобные треугольники"
+                android:textColor="#000000"
+                android:textSize="20sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="20dp" />
+
+            <TextView
+                android:id="@+id/textView128"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Если три стороны одного треугольника пропорциональны трем сторонам другого треугольника, то такие треугольники подобны."
+                android:textColor="#000000"
+                android:textSize="15sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="20dp" />
+
+            <TextView
+                android:id="@+id/textView129"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Признаки равенства треугольников"
+                android:textColor="#000000"
+                android:textSize="20sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="20dp" />
+
+            <TextView
+                android:id="@+id/textView130"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Если две стороны и угол между ними одного треугольника соответственно равны двум сторонам и углу между ними другого треугольника, то такие треугольники равны."
+                android:textColor="#000000"
+                android:textSize="15sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="15dp" />
+
+            <TextView
+                android:id="@+id/textView131"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Если сторона и два прилежащих к ней угла одного треугольника соответственно равны стороне и двум прилежащим к ней углам другого треугольника, то такие треугольники равны."
+                android:textColor="#000000"
+                android:textSize="15sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="20dp" />
+
+            <TextView
+                android:id="@+id/textView132"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Признаки подобия треугольников"
+                android:textColor="#000000"
+                android:textSize="20sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="20dp" />
+
+            <TextView
+                android:id="@+id/textView133"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Если два угла одного треугольника соответственно равны двум углам другого треугольника, то такие треугольники подобны."
+                android:textColor="#000000"
+                android:textSize="15sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="15dp" />
+
+            <TextView
+                android:id="@+id/textView134"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text=" Если две стороны одного треугольника пропорциональны двум сторонам другого треугольника и углы, заключенные между этими сторонами, равны, то такие треугольники подобны."
+                android:textColor="#000000"
+                android:textSize="15sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="15dp" />
+
+            <TextView
+                android:id="@+id/textView135"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Если три стороны одного треугольника пропорциональны трем сторонам другого треугольника, то такие треугольники подобны."
+                android:textColor="#000000"
+                android:textSize="15sp" />
+
+            <ImageView
+                android:id="@+id/imageView151"
+                android:layout_width="match_parent"
+                android:layout_height="188dp"
+                android:layout_marginBottom="-47dp"
+                app:srcCompat="@drawable/group" />
+
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

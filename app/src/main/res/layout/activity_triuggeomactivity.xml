@@ -1,0 +1,252 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fff2e3"
+    tools:context=".triuggeomactivity">
+
+    <ImageView
+        android:id="@+id/imageView131"
+        android:layout_width="238dp"
+        android:layout_height="36dp"
+        android:layout_marginTop="87dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/namelessontrig" />
+
+    <ScrollView
+        android:layout_width="409dp"
+        android:layout_height="766dp"
+        android:layout_marginTop="194dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView62"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Площадь треугольника:"
+                android:textColor="#000000"
+                android:textSize="15sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="4dp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/imageView132"
+                    android:layout_width="268dp"
+                    android:layout_height="83dp"
+                    app:srcCompat="@drawable/squareoftrigformule" />
+
+                <TextView
+                    android:id="@+id/textView73"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="bottom|center_horizontal"
+                    android:text="- формула георона"
+                    android:textColor="#000000"
+                    android:textSize="15sp" />
+            </LinearLayout>
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="8dp" />
+
+            <ImageView
+                android:id="@+id/imageView133"
+                android:layout_width="190dp"
+                android:layout_height="46dp"
+                app:srcCompat="@drawable/trigformula" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="8dp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/imageView135"
+                    android:layout_width="74dp"
+                    android:layout_height="match_parent"
+                    app:srcCompat="@drawable/squarecircleformul" />
+
+                <ImageView
+                    android:id="@+id/imageView136"
+                    android:layout_width="32dp"
+                    android:layout_height="48dp"
+                    android:layout_weight="1"
+                    app:srcCompat="@drawable/squareformulcirquale" />
+
+                <Space
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1" />
+
+                <Space
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1" />
+
+                <Space
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1" />
+
+            </LinearLayout>
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="8dp" />
+
+            <TextView
+                android:id="@+id/textView77"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Средняя линяя треугольника:"
+                android:textColor="#000000"
+                android:textSize="15sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="4dp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/imageView137"
+                    android:layout_width="126dp"
+                    android:layout_height="44dp"
+                    android:layout_weight="1"
+                    app:srcCompat="@drawable/srlintrigformula" />
+
+                <TextView
+                    android:id="@+id/textView78"
+                    android:layout_width="361dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center|left"
+                    android:text="- формула георона"
+                    android:textColor="#000000"
+                    android:textSize="15sp" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/textView79"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Теорема пифагора:"
+                android:textColor="#000000"
+                android:textSize="15sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="4dp" />
+
+            <ImageView
+                android:id="@+id/imageView138"
+                android:layout_width="132dp"
+                android:layout_height="27dp"
+                app:srcCompat="@drawable/pifformula" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="8dp" />
+
+            <TextView
+                android:id="@+id/textView80"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Теорема косинусов:"
+                android:textColor="#000000"
+                android:textSize="15sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="4dp" />
+
+            <ImageView
+                android:id="@+id/imageView139"
+                android:layout_width="260dp"
+                android:layout_height="33dp"
+                app:srcCompat="@drawable/teoremcos" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="4dp" />
+
+            <TextView
+                android:id="@+id/textView81"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="a,b,c - стороны треуголника, y угол между а и b"
+                android:textColor="#000000"
+                android:textSize="15sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="8dp" />
+
+            <TextView
+                android:id="@+id/textView82"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Теорема синусов:"
+                android:textColor="#000000"
+                android:textSize="15sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="4dp" />
+
+            <ImageView
+                android:id="@+id/imageView140"
+                android:layout_width="325dp"
+                android:layout_height="60dp"
+                app:srcCompat="@drawable/teoremsinformula" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="4dp" />
+
+            <TextView
+                android:id="@+id/textView83"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="a,b,c - стороны треуголника, A,B,Y противолежащие им углы"
+                android:textColor="#000000"
+                android:textSize="15sp" />
+
+            <ImageView
+                android:id="@+id/imageView141"
+                android:layout_width="match_parent"
+                android:layout_height="188dp"
+                android:layout_marginBottom="-47dp"
+                app:srcCompat="@drawable/group" />
+
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/PreExam2/app/src/main/res/drawable/ic_probsbf.xml" value="0.1" />
+        <entry key="..\:/PreExam2/app/src/main/res/layout/activity_choosetime.xml" value="0.25" />
+        <entry key="..\:/PreExam2/app/src/main/res/layout/activity_circuleactivity.xml" value="0.22" />
+        <entry key="..\:/PreExam2/app/src/main/res/layout/activity_circulusact.xml" value="0.25" />
+        <entry key="..\:/PreExam2/app/src/main/res/layout/activity_degreeeactivity.xml" value="0.12" />
+        <entry key="..\:/PreExam2/app/src/main/res/layout/activity_equalsactivity.xml" value="0.33" />
+        <entry key="..\:/PreExam2/app/src/main/res/layout/activity_expanded_part.xml" value="0.25" />
+        <entry key="..\:/PreExam2/app/src/main/res/layout/activity_fourangelsact.xml" value="0.3009833262077811" />
+        <entry key="..\:/PreExam2/app/src/main/res/layout/activity_functionactivity.xml" value="0.33" />
+        <entry key="..\:/PreExam2/app/src/main/res/layout/activity_geom_st_geo_inf.xml" value="0.22" />
+        <entry key="..\:/PreExam2/app/src/main/res/layout/activity_geometry.xml" value="0.33" />
+        <entry key="..\:/PreExam2/app/src/main/res/layout/activity_geometryformules.xml" value="0.33" />
+        <entry key="..\:/PreExam2/app/src/main/res/layout/activity_islosgact.xml" value="0.3009833262077811" />
+        <entry key="..\:/PreExam2/app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="..\:/PreExam2/app/src/main/res/layout/activity_mainformules.xml" value="0.33" />
+        <entry key="..\:/PreExam2/app/src/main/res/layout/activity_math1.xml" value="0.25" />
+        <entry key="..\:/PreExam2/app/src/main/res/layout/activity_orfeyanalizeact.xml" value="0.3009833262077811" />
+        <entry key="..\:/PreExam2/app/src/main/res/layout/activity_paractivity.xml" value="0.2894399315946986" />
+        <entry key="..\:/PreExam2/app/src/main/res/layout/activity_probability.xml" value="0.33" />
+        <entry key="..\:/PreExam2/app/src/main/res/layout/activity_punctuationact.xml" value="0.25" />
+        <entry key="..\:/PreExam2/app/src/main/res/layout/activity_rootsactivity.xml" value="0.18" />
+        <entry key="..\:/PreExam2/app/src/main/res/layout/activity_rowsactivity.xml" value="0.5" />
+        <entry key="..\:/PreExam2/app/src/main/res/layout/activity_ruslang.xml" value="0.25" />
+        <entry key="..\:/PreExam2/app/src/main/res/layout/activity_synt_wave_analyse.xml" value="0.3009833262077811" />
+        <entry key="..\:/PreExam2/app/src/main/res/layout/activity_syntwave2.xml" value="0.2894399315946986" />
+        <entry key="..\:/PreExam2/app/src/main/res/layout/activity_tapactivity.xml" value="0.3009833262077811" />
+        <entry key="..\:/PreExam2/app/src/main/res/layout/activity_test_part.xml" value="0.33" />
+        <entry key="..\:/PreExam2/app/src/main/res/layout/activity_theor_trianact.xml" value="0.2894399315946986" />
+        <entry key="..\:/PreExam2/app/src/main/res/layout/activity_theorem_geom.xml" value="0.2894399315946986" />
+        <entry key="..\:/PreExam2/app/src/main/res/layout/activity_theory_algebra.xml" value="0.25" />
+        <entry key="..\:/PreExam2/app/src/main/res/layout/activity_triuggeomactivity.xml" value="0.25" />
+        <entry key="..\:/PreExam2/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.14" />
+        <entry key="..\:/PreExam2/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.14" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_17" default="true" project-jdk-name="jbr-17" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

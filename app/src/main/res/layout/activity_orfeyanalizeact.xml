@@ -1,0 +1,412 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fff2e3"
+    tools:context=".orfeyanalizeact">
+
+    <ImageView
+        android:id="@+id/imageView170"
+        android:layout_width="238dp"
+        android:layout_height="36dp"
+        android:layout_marginTop="87dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/orfeyname" />
+
+    <ScrollView
+        android:layout_width="409dp"
+        android:layout_height="659dp"
+        android:layout_marginTop="197dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/textView165"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Основывая на том, что наше приложение пологается на быстрый и краткий доступ, в связи с этим учитывая необходимый объем информации ниже Вам представленны необходимые темы для прохождения экзамена. В грядущих обновлениях, мы обязательно исправим эту проблемму и добавим сюда всю необходиму информацию."
+                android:textColor="#000000"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="20dp" />
+
+            <TextView
+                android:id="@+id/textView166"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Орфограческий анализ по русскому языку – одно из объемных и сложных заданий, вызывающих у многих учащихся затруднения, ведь посвящено оно орфографии, которая тесно связана с такими разделами языка, как морфология (части речи) и морфемика (части слова). По сути, успешность орфографического анализа любого слова напрямую зависит от умения школьника отличать одну часть речи от другой, от его понимания, в какой части слова находится та или иная орфограмма, от знания правил и постулатов царицы Орфографии."
+                android:textColor="#000000"
+                android:textSize="15sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="20dp" />
+
+            <TextView
+                android:id="@+id/textView183"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Основывая на том, что наше приложение пологается на быстрый и краткий доступ, в связи с этим ниже Вам представленны необходимые темы для прохождения экзамена. В грядущих обновлениях, мы обязательно исправим эту проблемму и добавим сюда всю необходиму информацию."
+                android:textColor="#000000"
+                android:textSize="15sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="20dp" />
+
+            <TextView
+                android:id="@+id/textView184"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Гласные после шипящих и Ц"
+                android:textColor="#000000"
+                android:textSize="15sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="20dp" />
+
+            <TextView
+                android:id="@+id/textView185"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Употребление гласных букв И/Ы, А/Я, У/Ю после шипящих и Ц"
+                android:textColor="#000000"
+                android:textSize="15sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="20dp" />
+
+            <TextView
+                android:id="@+id/textView186"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Употребление гласных букв О/Е (Ё) после шипящих и Ц"
+                android:textColor="#000000"
+                android:textSize="15sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="20dp" />
+
+            <TextView
+                android:id="@+id/textView187"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Гласные после шипящих и Ц"
+                android:textColor="#000000"
+                android:textSize="15sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="20dp" />
+
+            <TextView
+                android:id="@+id/textView188"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Употребление мягкого и твердого знаков"
+                android:textColor="#000000"
+                android:textSize="15sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="20dp" />
+
+            <TextView
+                android:id="@+id/textView189"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Правописание корней "
+                android:textColor="#000000"
+                android:textSize="15sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="20dp" />
+
+            <TextView
+                android:id="@+id/textView190"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text=" Проверяемая гласная в корне"
+                android:textColor="#000000"
+                android:textSize="15sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="20dp" />
+
+            <TextView
+                android:id="@+id/textView191"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text=" Непроверяемая гласная в корне"
+                android:textColor="#000000"
+                android:textSize="15sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="20dp" />
+
+            <TextView
+                android:id="@+id/textView192"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text=" Чередующиеся гласные в корне"
+                android:textColor="#000000"
+                android:textSize="15sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="20dp" />
+
+            <TextView
+                android:id="@+id/textView193"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Правописание приставок"
+                android:textColor="#000000"
+                android:textSize="15sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="20dp" />
+
+            <TextView
+                android:id="@+id/textView194"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Правописание неизменяемых приставок"
+                android:textColor="#000000"
+                android:textSize="15sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="20dp" />
+
+            <TextView
+                android:id="@+id/textView195"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Правописание приставок на ..З и ..С"
+                android:textColor="#000000"
+                android:textSize="15sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="20dp" />
+
+            <TextView
+                android:id="@+id/textView196"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Правописание приставок ПРЕ и ПРИ"
+                android:textColor="#000000"
+                android:textSize="15sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="20dp" />
+
+            <TextView
+                android:id="@+id/textView197"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Правописание суффиксов различных частей речи (кроме -Н-/-НН-)"
+                android:textColor="#000000"
+                android:textSize="15sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="20dp" />
+
+            <TextView
+                android:id="@+id/textView198"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Правописание суффиксов существительных"
+                android:textColor="#000000"
+                android:textSize="15sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="20dp" />
+
+            <TextView
+                android:id="@+id/textView199"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text=" Правописание суффиксов прилагательных"
+                android:textColor="#000000"
+                android:textSize="15sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="20dp" />
+
+            <TextView
+                android:id="@+id/textView200"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Правописание суффиксов глаголов:"
+                android:textColor="#000000"
+                android:textSize="15sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="20dp" />
+
+            <TextView
+                android:id="@+id/textView201"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Правописание суффиксов наречий:"
+                android:textColor="#000000"
+                android:textSize="15sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="20dp" />
+
+            <TextView
+                android:id="@+id/textView202"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Правописание -Н- и -НН- в различных частях речи"
+                android:textColor="#000000"
+                android:textSize="15sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="20dp" />
+
+            <TextView
+                android:id="@+id/textView203"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Н/НН в прилагательных (от имени существительного)"
+                android:textColor="#000000"
+                android:textSize="15sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="20dp" />
+
+            <TextView
+                android:id="@+id/textView204"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Н/НН в причастиях и отглагольных прилагательных"
+                android:textColor="#000000"
+                android:textSize="15sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="20dp" />
+
+            <TextView
+                android:id="@+id/textView205"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Н/НН в кратких прилагательных/причастиях"
+                android:textColor="#000000"
+                android:textSize="15sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="20dp" />
+
+            <TextView
+                android:id="@+id/textView206"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text=" Правописание падежных и родовых окончаний"
+                android:textColor="#000000"
+                android:textSize="15sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="20dp" />
+
+            <TextView
+                android:id="@+id/textView207"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Правописание личных окончаний глаголов"
+                android:textColor="#000000"
+                android:textSize="15sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="20dp" />
+
+            <TextView
+                android:id="@+id/textView208"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Правописание суффиксов причастий"
+                android:textColor="#000000"
+                android:textSize="15sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="20dp" />
+
+            <TextView
+                android:id="@+id/textView209"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Слитное и раздельно правописание НЕ с частями речи"
+                android:textColor="#000000"
+                android:textSize="15sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="20dp" />
+
+            <TextView
+                android:id="@+id/textView210"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Правописание НЕ и НИ"
+                android:textColor="#000000"
+                android:textSize="15sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="20dp" />
+
+            <TextView
+                android:id="@+id/textView211"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text=" Слитное, дефисное, раздельное написание слов различных частей речи"
+                android:textColor="#000000"
+                android:textSize="15sp" />
+
+            <ImageView
+                android:id="@+id/imageView171"
+                android:layout_width="match_parent"
+                android:layout_height="188dp"
+                android:layout_marginBottom="-60dp"
+                app:srcCompat="@drawable/group" />
+
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

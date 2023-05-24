@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fff2e3"
+    tools:context=".Mainformules">
+
+    <ImageView
+        android:id="@+id/imageView40"
+        android:layout_width="334dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="43dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="43dp"
+        android:onClick="GoToFun"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.555"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView17"
+        app:srcCompat="@drawable/function" />
+
+    <ImageView
+        android:id="@+id/imageView77"
+        android:layout_width="238dp"
+        android:layout_height="36dp"
+        android:layout_marginTop="87dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/algebranote" />
+
+    <ImageView
+        android:id="@+id/imageView12"
+        android:layout_width="334dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="43dp"
+        android:layout_marginTop="236dp"
+        android:layout_marginEnd="43dp"
+        android:onClick="GoToDegree"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/multiplyyy" />
+
+    <ImageView
+        android:id="@+id/imageView26"
+        android:layout_width="334dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="43dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="43dp"
+        android:onClick="GoToRoot"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.555"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView12"
+        app:srcCompat="@drawable/roots" />
+
+    <ImageView
+        android:id="@+id/imageView27"
+        android:layout_width="334dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="43dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="43dp"
+        android:onClick="GoToRows"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.555"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView26"
+        app:srcCompat="@drawable/prob2" />
+
+    <ImageView
+        android:id="@+id/imageView29"
+        android:layout_width="334dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="43dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="43dp"
+        android:onClick="GoToProb"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.555"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView27"
+        app:srcCompat="@drawable/neravenstva" />
+
+    <ImageView
+        android:id="@+id/imageView17"
+        android:layout_width="334dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="10dp"
+        android:onClick="GoToEqual"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView29"
+        app:srcCompat="@drawable/yravnenia" />
+
+    <ImageView
+        android:id="@+id/imageView24"
+        android:layout_width="463dp"
+        android:layout_height="188dp"
+        android:layout_marginBottom="-47dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0"
+        app:srcCompat="@drawable/group" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

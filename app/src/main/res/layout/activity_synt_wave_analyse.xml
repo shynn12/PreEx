@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fff2e3"
+    tools:context=".SyntWaveAnalyse">
+
+    <ImageView
+        android:id="@+id/imageView16"
+        android:layout_width="238dp"
+        android:layout_height="36dp"
+        android:layout_marginTop="87dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/namesyntwave" />
+
+    <ScrollView
+        android:id="@+id/scrollView2"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="194dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView161"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Вот основная информация, которая Вам поможет на экзамене:"
+                android:textColor="#000000"
+                android:textSize="20sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="20dp" />
+
+            <TextView
+                android:id="@+id/textView162"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Согласование – это вид подчинительной связи, при котором зависимое слово согласуется с главным в роде, числе и падеже. Способны на это только прилагательные, причастия, порядковые числительные и некоторые местоимения. Поэтому именно эти части речи выступают в качестве зависимых слов. А главным является существительное."
+                android:textColor="#000000"
+                android:textSize="15sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="20dp" />
+
+            <TextView
+                android:id="@+id/textView163"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Управление – это вид подчинительной связи, при котором зависимое слово отвечает на вопросы косвенных падежей: «кого?», «чего?», «кому?», «чему?», «что?», «кем?», «чем?», «о ком?», «о чём?». Следовательно, зависимыми словами могут быть существительные, местоимения или любые части речи в функции существительного. В зависимости от того, какой частью речи является главное слово, выделяют 3 основных вида управления: глагольное, именное, наречное. В редких случаях главным словом является числительное и деепричастие."
+                android:textColor="#000000"
+                android:textSize="15sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="20dp" />
+
+            <TextView
+                android:id="@+id/textView164"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Примыкание – это вид подчинительной связи, при котором зависимое слово является неизменяемым. Это наречие, деепричастие, инфинитив глагола, неизменяемые притяжательные местоимения, неизменяемые прилагательные и формы сравнительной степени прилагательного. Главным словом может быть глагол, существительное или наречие."
+                android:textColor="#000000"
+                android:textSize="15sp" />
+
+            <ImageView
+                android:id="@+id/imageView168"
+                android:layout_width="match_parent"
+                android:layout_height="188dp"
+                android:layout_marginBottom="-47dp"
+                app:srcCompat="@drawable/group" />
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

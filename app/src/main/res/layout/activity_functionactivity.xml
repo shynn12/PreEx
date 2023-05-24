@@ -1,0 +1,815 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fff2e3"
+    tools:context=".functionactivity" >
+
+    <ImageView
+        android:id="@+id/imageView95"
+        android:layout_width="238dp"
+        android:layout_height="36dp"
+        android:layout_marginTop="87dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/naamelesssonfun" />
+
+    <ScrollView
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="200dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Линейная функция:"
+                android:textColor="#000000"
+                android:textSize="20sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="7dp" />
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Формула линейной функции:"
+                android:textColor="#000000"
+                android:textSize="15sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="7dp" />
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="\ty = kx + m"
+                android:textColor="#000000"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="7dp" />
+
+            <TextView
+                android:id="@+id/textView22"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Коэффициент k:"
+                android:textColor="#000000"
+                android:textSize="20sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="7dp" />
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Коэффициент k называют угловым, так как он показывает угол наклона линейной функции на графике относительно оси Ox. "
+                android:textColor="#000000"
+                android:textSize="15sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="25dp" />
+
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Построим график функции, заданный формулой: \n y = x (коэффициенты: k = 1, m = 0) "
+                android:textColor="#000000"
+                android:textSize="15sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="7dp" />
+
+            <ImageView
+                android:id="@+id/imageView100"
+                android:layout_width="154dp"
+                android:layout_height="55dp"
+                app:srcCompat="@drawable/tabl1" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="7dp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="7dp" />
+
+            <ImageView
+                android:id="@+id/imageView101"
+                android:layout_width="250dp"
+                android:layout_height="160dp"
+                app:srcCompat="@drawable/fun1" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="25dp" />
+
+            <TextView
+                android:id="@+id/textView8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text=" Построим график функции, заданный формулой: \n y = 5x (коэффициенты: k = 5, m = 0)"
+                android:textColor="#000000"
+                android:textSize="15sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="7dp" />
+
+            <ImageView
+                android:id="@+id/imageView102"
+                android:layout_width="154dp"
+                android:layout_height="55dp"
+                app:srcCompat="@drawable/tabl2" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="7dp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="7dp" />
+
+            <ImageView
+                android:id="@+id/imageView103"
+                android:layout_width="250dp"
+                android:layout_height="160dp"
+                app:srcCompat="@drawable/fun2" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="25dp" />
+
+            <TextView
+                android:id="@+id/textView12"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Заметим, что вторая функция растёт быстрее и имеет больший угол."
+                android:textColor="#000000"
+                android:textSize="15sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="7dp" />
+
+            <TextView
+                android:id="@+id/textView26"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Коэффициент m:"
+                android:textColor="#000000"
+                android:textSize="20sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="7dp" />
+
+            <TextView
+                android:id="@+id/textView23"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Построим график функции, заданный формулой:\n y = x - 2(коэффициенты: k = 1, m = -2) "
+                android:textColor="#000000"
+                android:textSize="15sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="7dp" />
+
+            <ImageView
+                android:id="@+id/imageView105"
+                android:layout_width="154dp"
+                android:layout_height="55dp"
+                app:srcCompat="@drawable/tabl3" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="7dp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="7dp" />
+
+            <ImageView
+                android:id="@+id/imageView107"
+                android:layout_width="254dp"
+                android:layout_height="174dp"
+                app:srcCompat="@drawable/fun3" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="25dp" />
+
+            <TextView
+                android:id="@+id/textView13"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Теперь построим график функции, заданный формулой:\n y = x + 5 (коэффициенты: k = 5, m = 5) "
+                android:textColor="#000000"
+                android:textSize="15sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="7dp" />
+
+            <ImageView
+                android:id="@+id/imageView108"
+                android:layout_width="154dp"
+                android:layout_height="55dp"
+                app:srcCompat="@drawable/tabl4" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="7dp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="7dp" />
+
+            <ImageView
+                android:id="@+id/imageView109"
+                android:layout_width="255dp"
+                android:layout_height="174dp"
+                app:srcCompat="@drawable/fun4" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="25dp" />
+
+            <TextView
+                android:id="@+id/textView16"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Заметим, что график функции как бы “поднялся” по сравнению с первым. Коэффициент m можно определить, посмотрев в каком месте график пересекает ось Oy. "
+                android:textColor="#000000"
+                android:textSize="15sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="25dp" />
+
+            <TextView
+                android:id="@+id/textView17"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Парабола:"
+                android:textColor="#000000"
+                android:textSize="20sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="7dp" />
+
+            <TextView
+                android:id="@+id/textView18"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text=" Парабола задаётся квадратичной функцией вида: "
+                android:textColor="#000000"
+                android:textSize="15sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="7dp" />
+
+            <TextView
+                android:id="@+id/textView19"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="\ty = ax² + bx + c"
+                android:textColor="#000000"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="7dp" />
+
+            <TextView
+                android:id="@+id/textView27"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Коэффициент a:"
+                android:textColor="#000000"
+                android:textSize="20sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="7dp" />
+
+            <TextView
+                android:id="@+id/textView28"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Старший коэффициент a отвечает за «крутизну» параболы, или, по-другому, за ее ширину: чем больше a, тем парабола у́же (круче), а чем a меньше, тем парабола шире (более пологая).  "
+                android:textColor="#000000"
+                android:textSize="15sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="7dp" />
+
+            <TextView
+                android:id="@+id/textView29"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Так же коэффициент a отвечает за направление ветвей параболы: Если a &lt; 0, ветви параболы направлены вниз, если a &gt; 0 – ветви параболы направлены вверх. "
+                android:textColor="#000000"
+                android:textSize="15sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="25dp" />
+
+            <TextView
+                android:id="@+id/textView32"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Чтобы доказать это, построим несколько парабол: \n y = x² (коэффициенты: a = 1, b= 0, c =0) "
+                android:textColor="#000000"
+                android:textSize="15sp" />
+
+            <ImageView
+                android:id="@+id/imageView110"
+                android:layout_width="225dp"
+                android:layout_height="73dp"
+                app:srcCompat="@drawable/tabl5" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="7dp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="7dp" />
+
+            <ImageView
+                android:id="@+id/imageView111"
+                android:layout_width="261dp"
+                android:layout_height="179dp"
+                app:srcCompat="@drawable/fun5" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="25dp" />
+
+            <TextView
+                android:id="@+id/textView20"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text=" y = 2x² (коэффициенты: a = 2, b =0, c = 0) Заметим, что график стал у́же, что и следовало доказать. "
+                android:textColor="#000000"
+                android:textSize="15sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="7dp" />
+
+            <ImageView
+                android:id="@+id/imageView112"
+                android:layout_width="225dp"
+                android:layout_height="73dp"
+                app:srcCompat="@drawable/tabl7" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="7dp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="7dp" />
+
+            <ImageView
+                android:id="@+id/imageView113"
+                android:layout_width="261dp"
+                android:layout_height="179dp"
+                app:srcCompat="@drawable/fun7" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="25dp" />
+
+            <TextView
+                android:id="@+id/textView21"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Теперь попробуем подставить отрицательный коэффициент a: y = -x²"
+                android:textColor="#000000"
+                android:textSize="15sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="7dp" />
+
+            <ImageView
+                android:id="@+id/imageView114"
+                android:layout_width="225dp"
+                android:layout_height="73dp"
+                app:srcCompat="@drawable/tabl6" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="7dp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="7dp" />
+
+            <ImageView
+                android:id="@+id/imageView115"
+                android:layout_width="261dp"
+                android:layout_height="178dp"
+                app:srcCompat="@drawable/fun8" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="25dp" />
+
+            <TextView
+                android:id="@+id/textView24"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Теперь ветки параболы направлены вниз, так как коэффициент a &lt; 0 "
+                android:textColor="#000000"
+                android:textSize="15sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="25dp" />
+
+            <TextView
+                android:id="@+id/textView25"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Коэффициент b: "
+                android:textColor="#000000"
+                android:textSize="20sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="7dp" />
+
+            <TextView
+                android:id="@+id/textView55"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Коэффициент b влияет на расположение вершины параболы. При b = 0 вершина лежит на оси Oу. При b &gt; 0 происходит смещение влево, а при b &lt; 0 – вправо.   "
+                android:textColor="#000000"
+                android:textSize="15sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="7dp" />
+
+            <TextView
+                android:id="@+id/textView57"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Чтобы доказать это, построим несколько парабол: "
+                android:textColor="#000000"
+                android:textSize="15sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="7dp" />
+
+            <TextView
+                android:id="@+id/textView58"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text=" y = x² + 2x (коэффициенты: a = 1, b= 2, c =0)"
+                android:textColor="#000000"
+                android:textSize="15sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="7dp" />
+
+            <ImageView
+                android:id="@+id/imageView116"
+                android:layout_width="225dp"
+                android:layout_height="73dp"
+                app:srcCompat="@drawable/tab9" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="7dp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="7dp" />
+
+            <ImageView
+                android:id="@+id/imageView117"
+                android:layout_width="261dp"
+                android:layout_height="179dp"
+                app:srcCompat="@drawable/fun9" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="25dp" />
+
+            <TextView
+                android:id="@+id/textView59"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Теперь построим график с b = -2: y = x² - 2x (коэффициенты: a = 1, b= -2, c =0) "
+                android:textColor="#000000"
+                android:textSize="15sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="7dp" />
+
+            <ImageView
+                android:id="@+id/imageView118"
+                android:layout_width="225dp"
+                android:layout_height="73dp"
+                app:srcCompat="@drawable/tabl10" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="7dp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="7dp" />
+
+            <ImageView
+                android:id="@+id/imageView119"
+                android:layout_width="261dp"
+                android:layout_height="179dp"
+                app:srcCompat="@drawable/fun11" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="25dp" />
+
+            <TextView
+                android:id="@+id/textView60"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Заметим, что при b &gt; 0, вершина параболы вправо сместилась, а при b &lt; 0 – влево, что и требовалось доказать. "
+                android:textColor="#000000"
+                android:textSize="15sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="25dp" />
+
+            <TextView
+                android:id="@+id/textView61"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Коэффициент c: "
+                android:textColor="#000000"
+                android:textSize="20sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="7dp" />
+
+            <TextView
+                android:id="@+id/textView63"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Коэффициент c определяет положение точки пересечения параболы и оси Oy. "
+                android:textColor="#000000"
+                android:textSize="15sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="25dp" />
+
+            <TextView
+                android:id="@+id/textView64"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Чтобы доказать это, построим несколько парабол: y = x² + 2 (коэффициенты: a = 1, b= 0, c = 2)"
+                android:textColor="#000000"
+                android:textSize="15sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="7dp" />
+
+            <ImageView
+                android:id="@+id/imageView120"
+                android:layout_width="225dp"
+                android:layout_height="73dp"
+                app:srcCompat="@drawable/tabl12" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="7dp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="7dp" />
+
+            <ImageView
+                android:id="@+id/imageView121"
+                android:layout_width="200dp"
+                android:layout_height="182dp"
+                app:srcCompat="@drawable/fun12" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="25dp" />
+
+            <TextView
+                android:id="@+id/textView65"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="y = x² - 2 (коэффициенты: a = 1, b= 0, c = -2)"
+                android:textColor="#000000"
+                android:textSize="15sp" />
+
+            <ImageView
+                android:id="@+id/imageView122"
+                android:layout_width="225dp"
+                android:layout_height="73dp"
+                app:srcCompat="@drawable/tabl11" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="7dp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="7dp" />
+
+            <ImageView
+                android:id="@+id/imageView123"
+                android:layout_width="200dp"
+                android:layout_height="182dp"
+                app:srcCompat="@drawable/fun13" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="25dp" />
+
+            <TextView
+                android:id="@+id/textView66"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="y = x² + x – 1 (коэффициенты: a = 1, b= 1, c = -1)"
+                android:textColor="#000000"
+                android:textSize="15sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="7dp" />
+
+            <ImageView
+                android:id="@+id/imageView124"
+                android:layout_width="225dp"
+                android:layout_height="73dp"
+                app:srcCompat="@drawable/tabl14" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="7dp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="7dp" />
+
+            <ImageView
+                android:id="@+id/imageView125"
+                android:layout_width="200dp"
+                android:layout_height="182dp"
+                app:srcCompat="@drawable/fun14" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="25dp" />
+
+            <TextView
+                android:id="@+id/textView67"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Гипербола"
+                android:textColor="#000000"
+                android:textSize="20sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="7dp" />
+
+            <TextView
+                android:id="@+id/textView72"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Гипербола задаётся формулой вида: "
+                android:textColor="#000000"
+                android:textSize="15sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="7dp" />
+
+            <ImageView
+                android:id="@+id/imageView128"
+                android:layout_width="130dp"
+                android:layout_height="45dp"
+                app:srcCompat="@drawable/forumulefun1" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="25dp" />
+
+            <TextView
+                android:id="@+id/textView68"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Гипербола имеет две ветви и может располагаться в 1 и 3 координатных четвертях, либо во 2 и 4. Это зависит от знака числа k. Рассмотрим данную кривую на рисунке, где показано ее расположение в зависимости от знака k. Гипербола имеет две ветви и может располагаться в 1 и 3 координатных четвертях, либо во 2 и 4. Это зависит от знака числа k. Рассмотрим данную кривую на рисунке, где показано ее расположение в зависимости от знака k."
+                android:textColor="#000000"
+                android:textSize="15sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="25dp" />
+
+            <TextView
+                android:id="@+id/textView69"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Чтобы доказать это, построим несколько гипербол:"
+                android:textColor="#000000"
+                android:textSize="15sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="7dp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="7dp" />
+
+            <TextView
+                android:id="@+id/textView70"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="k &gt; 0"
+                android:textColor="#000000"
+                android:textSize="15sp" />
+
+            <ImageView
+                android:id="@+id/imageView126"
+                android:layout_width="211dp"
+                android:layout_height="192dp"
+                app:srcCompat="@drawable/fun15" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="25dp" />
+
+            <TextView
+                android:id="@+id/textView71"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="k &lt; 0"
+                android:textColor="#000000"
+                android:textSize="15sp" />
+
+            <ImageView
+                android:id="@+id/imageView127"
+                android:layout_width="211dp"
+                android:layout_height="192dp"
+                app:srcCompat="@drawable/fun16" />
+
+            <ImageView
+                android:id="@+id/imageView129"
+                android:layout_width="match_parent"
+                android:layout_height="188dp"
+                android:layout_marginBottom="-47dp"
+                app:srcCompat="@drawable/group" />
+
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fff2e3"
+    tools:context=".Islosgact">
+
+    <ImageView
+        android:id="@+id/imageView18"
+        android:layout_width="match_parent"
+        android:layout_height="188dp"
+        android:layout_marginBottom="-47dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0"
+        app:srcCompat="@drawable/group" />
+
+    <ImageView
+        android:id="@+id/imageView15"
+        android:layout_width="238dp"
+        android:layout_height="36dp"
+        android:layout_marginTop="87dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/islogname" />
+
+    <ScrollView
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="197dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView224"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Первое включение аудиозаписи. В процессе прослушивания можно делать заметки. В среднем этап занимает 3-4 минуты. Перерыв, работа с черновиком. У вас будет 5-6 минут, чтобы перечитать свои записи и осмыслить текст. Второе включение аудиозаписи. Также разрешается выписывать тезисы и корректировать черновик."
+                android:textColor="#000000"
+                android:textSize="15sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="20dp" />
+
+            <TextView
+                android:id="@+id/textView225"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Просмотрите черновик. Соедините получившиеся записи, выделите микротемы и разделите их между собой. Микротемы — это основная мысль, которая раскрывается в абзаце. В результате у вас должно быть 3 абзаца и 3 микротемы."
+                android:textColor="#000000"
+                android:textSize="15sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="20dp" />
+
+            <TextView
+                android:id="@+id/textView226"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="В процессе сжатия текста важно сохранить последовательность изложения, все микротемы и структуру, должно быть 3 абзаца. Если абзацев будет 1 или 2, то вы получите меньше баллов. Прочитайте получившийся текст. Исправьте орфографические и пунктуационные ошибки, не спешите и просмотрите текст несколько раз. Так вы сможете найти все недочеты и доработать изложение."
+                android:textColor="#000000"
+                android:textSize="15sp" />
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

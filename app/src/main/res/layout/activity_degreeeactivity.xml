@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fff2e3"
+    tools:context=".Degreeeactivity">
+
+    <ImageView
+        android:id="@+id/imageView67"
+        android:layout_width="238dp"
+        android:layout_height="36dp"
+        android:layout_marginStart="88dp"
+        android:layout_marginTop="87dp"
+        android:layout_marginEnd="88dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/degree1" />
+
+    <ScrollView
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="1dp"
+        android:layout_marginTop="200dp"
+        android:layout_marginEnd="1dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView33"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="(a + b)² = a² + 2ab + b²"
+                android:textColor="#000000"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="11dp" />
+
+            <TextView
+                android:id="@+id/textView35"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:lineHeight="18dp"
+                android:text="\t\t\t\tПредставим (a+b)² в виде (a+b)(a+b) и перемножим скобки: \n (a+b)²=(a+b)(a+b)=a²+ab+ab+b²=a²+2ab+b². "
+                android:textColor="#000000"
+                android:textSize="15sp"
+                android:textStyle="normal" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="40dp" />
+
+            <TextView
+                android:id="@+id/textView34"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="(a - b)² = a² - 2ab + b²"
+                android:textColor="#000000"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="11dp" />
+
+            <TextView
+                android:id="@+id/textView36"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:lineHeight="18dp"
+                android:text="\t\t\t\tПредставим (a-b)² в виде (a-b)(a-b) и перемножим скобки:
+(a-b)2=(a-b)(a-b)=a²-ab-ba+b²=a²-2ab+b²"
+                android:textColor="#000000"
+                android:textSize="15sp"
+                android:textStyle="normal" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="40dp" />
+
+            <TextView
+                android:id="@+id/textView40"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="a² - b² = (a + b)(a - b)"
+                android:textColor="#000000"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="11dp" />
+
+            <TextView
+                android:id="@+id/textView41"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:lineHeight="18dp"
+                android:text="\t\t\t\tПредставим 0 как разность ab – ab и добавим в формулу\n
+a²-b² = a²-ab+ab-b²=(a²-ab)+(ba-b²)=a(a-b)+b(a-b)=(a-b)(a+b)
+"
+                android:textColor="#000000"
+                android:textSize="15sp"
+                android:textStyle="normal" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="40dp" />
+
+            <TextView
+                android:id="@+id/textView42"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="(a - b)³ = a³ - b³ - 3ab(a - b)"
+                android:textColor="#000000"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="11dp" />
+
+            <TextView
+                android:id="@+id/textView43"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:lineHeight="18dp"
+                android:text="\t\t\t\tПредставим (a-b)³ в виде (a-b)(a-b)(a-b) и перемножим скобки: \n \t\t\t\t(a-b)³ = (a-b) (a-b) (a-b) = a³-3a²b+3ab²-b³ = a³-b³-3ab(a-b).
+"
+                android:textColor="#000000"
+                android:textSize="15sp"
+                android:textStyle="normal" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="40dp" />
+
+            <TextView
+                android:id="@+id/textView44"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="(a + b)³ = a³ + b³ + 3ab(a + b)"
+                android:textColor="#000000"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="11dp" />
+
+            <TextView
+                android:id="@+id/textView45"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:lineHeight="18dp"
+                android:text="\t\t\t\tПредставим (a+b)³ в виде (a+b)(a+b)(a+b) и перемножим скобки: \n \t\t\t\t(a+b)³ = (a+b) (a+b) (a+b) = a³+3a²b+3ab²+b³ = a³+b³+3ab(a+b)."
+                android:textColor="#000000"
+                android:textSize="15sp"
+                android:textStyle="normal" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="40dp" />
+
+            <TextView
+                android:id="@+id/textView46"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="a³ - b³ = (a - b)(a² + ab + b²)"
+                android:textColor="#000000"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="11dp" />
+
+            <TextView
+                android:id="@+id/textView47"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:lineHeight="18dp"
+                android:text="\t\t\t\tВоспользуемся уже известной нам формулой (a-b)³:\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t (a - b)³ = a³ - b³ - 3ab(a - b)\n\t\t\t\tРазность кубов оставим в одной части равенства, а все остальное перенесем в другую часть равенства:\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\ta³-b³=(a-b)³+3a²b-3ab² \nТеперь преобразуем правую часть:\n\t\t\t\t\t\t\t\t\t(a-b)3+3a2b-3ab2=(a-b)3+3ab(a-b)=(a-b)((a-b)2+3ab)= (a-b)(a2-2ab+b2+3ab)=(a-b)(a2+ab+b2) \n Отсюда:
+\n\t\t\t\t\t\t\ta³-b³ = (a-b)(a2+ab+b2)
+
+"
+                android:textColor="#000000"
+                android:textSize="15sp"
+                android:textStyle="normal" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="40dp" />
+
+            <TextView
+                android:id="@+id/textView14"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="a³ + b³ = (a + b)(a² -ab + b²)"
+                android:textColor="#000000"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="11dp" />
+
+            <TextView
+                android:id="@+id/textView15"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:lineHeight="18dp"
+                android:text="\t\t\t\tСумма кубов двух чисел равна произведению суммы первого и второго числа на неполных квадрат разности этих чисел:\n a³ + b³ = (a + b)(a² - ab + b²)\n\t\t\t\t Выполним умножение многочленов из правой части формулы, приведём подобные члены и получим левую часть формулы:\n (a + b)(a² - ab + b²) = a³ - a²b + ab² + a²b - ab² + b³ = a³ + b³.
+"
+                android:textColor="#000000"
+                android:textSize="15sp"
+                android:textStyle="normal" />
+
+            <ImageView
+                android:id="@+id/imageView106"
+                android:layout_width="match_parent"
+                android:layout_height="188dp"
+                android:layout_marginBottom="-47dp"
+                app:srcCompat="@drawable/group" />
+
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fff2e3"
+    tools:context=".fourangelsact">
+
+    <ImageView
+        android:id="@+id/imageView152"
+        android:layout_width="238dp"
+        android:layout_height="36dp"
+        android:layout_marginTop="87dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/fourangle" />
+
+    <ScrollView
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="197dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/textView136"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Параллелограммы"
+                android:textColor="#000000"
+                android:textSize="20sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="20dp" />
+
+            <TextView
+                android:id="@+id/textView137"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Определение - Параллелограммом называется четырехугольник, у которого стороны попарно параллельны"
+                android:textColor="#000000"
+                android:textSize="15sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="20dp" />
+
+            <TextView
+                android:id="@+id/textView138"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Свойства параллелограмма"
+                android:textColor="#000000"
+                android:textSize="20sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="20dp" />
+
+            <TextView
+                android:id="@+id/textView139"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="В параллелограмме противоположные стороны и противоположные углы равны"
+                android:textColor="#000000"
+                android:textSize="15sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="15dp" />
+
+            <TextView
+                android:id="@+id/textView140"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Диагонали параллелограмма делятся точкой пересечения пополам."
+                android:textColor="#000000"
+                android:textSize="15sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="15dp" />
+
+            <TextView
+                android:id="@+id/textView141"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="В параллелограмме сумма углов, прилежащих к одной стороне, равна 180º"
+                android:textColor="#000000"
+                android:textSize="15sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="20dp" />
+
+            <TextView
+                android:id="@+id/textView142"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Признаки параллелограмма"
+                android:textColor="#000000"
+                android:textSize="20sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="20dp" />
+
+            <TextView
+                android:id="@+id/textView143"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Если в четырехугольнике две стороны равны и параллельны, то этот четырехугольник – параллелограмм"
+                android:textColor="#000000"
+                android:textSize="15sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="15dp" />
+
+            <TextView
+                android:id="@+id/textView144"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Если в четырехугольнике противоположные стороны попарно равны, то этот четырехугольник – параллелограмм"
+                android:textColor="#000000"
+                android:textSize="15sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="15dp" />
+
+            <TextView
+                android:id="@+id/textView145"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Если в четырехугольнике диагонали пересекаются и точкой пересечения делятся пополам, то этот четырехугольник – параллелограмм"
+                android:textColor="#000000"
+                android:textSize="15sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="20dp" />
+
+            <TextView
+                android:id="@+id/textView146"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Трапеции"
+                android:textColor="#000000"
+                android:textSize="20sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="20dp" />
+
+            <TextView
+                android:id="@+id/textView147"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Трапеция прямоугольная - если один из углов прямой Трапеция равнобедренная - если ее боковые стороны равны"
+                android:textColor="#000000"
+                android:textSize="15sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="20dp" />
+
+            <TextView
+                android:id="@+id/textView148"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Свойства"
+                android:textColor="#000000"
+                android:textSize="20sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="20dp" />
+
+            <TextView
+                android:id="@+id/textView149"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="В равнобедренной трапеции:"
+                android:textColor="#000000"
+                android:textSize="15sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="15dp" />
+
+            <TextView
+                android:id="@+id/textView150"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Диагонали равны Углы при основании равны Середины сторон являются вершинами ромба"
+                android:textColor="#000000"
+                android:textSize="15sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="15dp" />
+
+            <TextView
+                android:id="@+id/textView151"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Биссектрисы углов, прилежащих к боковой стороне, перпендикулярны"
+                android:textColor="#000000"
+                android:textSize="15sp" />
+
+            <ImageView
+                android:id="@+id/imageView155"
+                android:layout_width="match_parent"
+                android:layout_height="188dp"
+                android:layout_marginBottom="-47dp"
+                app:srcCompat="@drawable/group" />
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

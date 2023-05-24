@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fff2e3"
+    tools:context=".Syntwave2">
+
+    <ImageView
+        android:id="@+id/imageView172"
+        android:layout_width="238dp"
+        android:layout_height="36dp"
+        android:layout_marginTop="87dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/sochnameles" />
+
+    <ScrollView
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="197dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/textView212"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Структура сочинения 9.1 "
+                android:textColor="#000000"
+                android:textSize="20sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="20dp" />
+
+            <TextView
+                android:id="@+id/textView213"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="В сочинении важно придерживаться плана и требований, которые описаны в задании. Рассмотрим формулировку задания и выделим основные части работы.  "
+                android:textColor="#000000"
+                android:textSize="15sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="15dp" />
+
+            <TextView
+                android:id="@+id/textView214"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Пример: "
+                android:textColor="#000000"
+                android:textSize="15sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="5dp" />
+
+            <TextView
+                android:id="@+id/textView215"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Напишите сочинение-рассуждение, раскрывая смысл высказывания известного литературного критика Дмитрия Ивановича Писарева: «Неправильность употребления слов ведёт за собой ошибки в области мысли и потом в практике жизни». "
+                android:textColor="#000000"
+                android:textSize="15sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="1dp" />
+
+            <TextView
+                android:id="@+id/textView216"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Аргументируя свой ответ, приведите два примера из прочитанного текста. Приводя примеры, указывайте номера нужных предложений или применяйте цитирование. Вы можете писать работу в научном или публицистическом стиле, раскрывая тему на лингвистическом материале. "
+                android:textColor="#000000"
+                android:textSize="15sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="1dp" />
+
+            <TextView
+                android:id="@+id/textView217"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Объём сочинения должен составлять не менее 70 слов. Работа, написанная без опоры на прочитанный текст (не по данному тексту), не оценивается. Если сочинение представляет собой пересказанный или полностью переписанный исходный текст без каких бы то ни было комментариев, то такая работа оценивается нулём баллов.\nСочинение пиши аккуратно, разборчивым почерком. "
+                android:textColor="#000000"
+                android:textSize="15sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="15dp" />
+
+            <TextView
+                android:id="@+id/textView218"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="В сочинении важно придерживаться плана и требований, которые описаны в задании. "
+                android:textColor="#000000"
+                android:textSize="15sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="15dp" />
+
+            <TextView
+                android:id="@+id/textView219"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="1. Вступление (2-3 предложения). Во вступлении ты должен сформулировать тезис. Для этого приведи само высказывание и вырази собственное отношение к его содержанию. "
+                android:textColor="#000000"
+                android:textSize="15sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="15dp" />
+
+            <TextView
+                android:id="@+id/textView220"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="2. Основная часть. В основной части приведи 2 примера из текста, иллюстрирующие указанн(-ое, -ые) в высказывании лингвистическ(ое, ие) явлени(-е, -я), и прокомментируй их: "
+                android:textColor="#000000"
+                android:textSize="15sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="5dp" />
+
+            <TextView
+                android:id="@+id/textView221"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="+ аргумент-пример № 1 из текста + комментари "
+                android:textColor="#000000"
+                android:textSize="15sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="5dp" />
+
+            <TextView
+                android:id="@+id/textView222"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="+ аргумент-пример № 2 из текста + комментарий."
+                android:textColor="#000000"
+                android:textSize="15sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="15dp" />
+
+            <TextView
+                android:id="@+id/textView223"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="3. Заключение. Сделайте вывод, подтверждающий заданный тезис."
+                android:textColor="#000000"
+                android:textSize="15sp" />
+
+            <ImageView
+                android:id="@+id/imageView6"
+                android:layout_width="match_parent"
+                android:layout_height="188dp"
+                android:layout_marginBottom="-60dp"
+                app:srcCompat="@drawable/group" />
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

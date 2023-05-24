@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fff2e3"
+    tools:context=".theoremGeom">
+
+    <ImageView
+        android:id="@+id/imageView56"
+        android:layout_width="463dp"
+        android:layout_height="188dp"
+        android:layout_marginBottom="-47dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0"
+        app:srcCompat="@drawable/group" />
+
+    <ImageView
+        android:id="@+id/imageView79"
+        android:layout_width="238dp"
+        android:layout_height="36dp"
+        android:layout_marginTop="87dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/geompoints" />
+
+    <ImageView
+        android:id="@+id/imageView50"
+        android:layout_width="334dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="43dp"
+        android:layout_marginTop="346dp"
+        android:layout_marginEnd="43dp"
+        android:layout_marginBottom="8dp"
+        android:onClick="GoTocirculuses"
+        app:layout_constraintBottom_toTopOf="@+id/imageView51"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.555"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.72"
+        app:srcCompat="@drawable/roundaksiom" />
+
+    <ImageView
+        android:id="@+id/imageView51"
+        android:layout_width="334dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="43dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="43dp"
+        android:onClick="theorTrianact"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.555"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView50"
+        app:srcCompat="@drawable/triangleaksiom" />
+
+    <ImageView
+        android:id="@+id/imageView52"
+        android:layout_width="334dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="43dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="43dp"
+        android:onClick="GoToFourAngle"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.555"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView51"
+        app:srcCompat="@drawable/fourangelsaksiom" />
+
+    <ImageView
+        android:id="@+id/imageView54"
+        android:layout_width="334dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="43dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="43dp"
+        android:onClick="GoToStInf"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.555"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView52"
+        app:srcCompat="@drawable/basicgeometry" />
+</androidx.constraintlayout.widget.ConstraintLayout>
